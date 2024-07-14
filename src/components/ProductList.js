@@ -35,7 +35,7 @@ const ProductList = () => {
                 <div className="flex items-center">
                   <img src={product.image} alt={product.name} className="w-20 h-20 object-cover mr-2 rounded-lg" />
                   <div>
-                    <Link to={`/edit-product/${product._id}`} className="text-black-500 hover:underline font-semibold	text-base">{product.name}</Link>
+                    <Link to={`/edit-product/${product._id}`} className="text-black-500 hover:underline font-medium	text-lg">{product.name}</Link>
                     <p className="text-[#AFB8CD] text-sm">{product.sku}</p>
                   </div>
                 </div>
