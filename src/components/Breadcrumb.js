@@ -36,7 +36,7 @@ const Breadcrumb = () => {
         <div className="flex items-center space-x-2 mr-10">
           <img src={userIcon} alt="User" className="border-slate-950 w-12 h-12 rounded-full" />
           <div className="flex flex-col">
-            <span className="text-base font-medium">Everon Supplies</span>
+            <span className="text-base font-medium">Everon Supplies </span>
             <span className="text-sm text-gray-500">bridget@gmail.com</span>
           </div>
         </div>
