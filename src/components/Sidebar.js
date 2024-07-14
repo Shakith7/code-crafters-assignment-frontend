@@ -8,7 +8,7 @@ import logo from '../icons/logo.png';
 
 const Sidebar = () => {
   return (
-    <div className="h-screen w-64 white text-white flex flex-col">
+    <div className="h-screen w-64 white text-white flex flex-col bg-[#FFFFFF]">
       <div className="flex items-center justify-center h-20">
         <img src={logo} alt="Logo" className="h-12" />
       </div><br />

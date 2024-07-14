@@ -8,7 +8,7 @@ const Breadcrumb = () => {
   const pathnames = location.pathname.split('/').filter((x) => x);
 
   return (
-    <nav className="flex justify-between items-center py-3 px-5  bg-gray-50 rounded-lg border border-gray-200  " aria-label="Breadcrumb">
+    <nav className="flex justify-between items-center py-3 px-5  bg-[#FFFFFF] rounded-lg border border-gray-200  " aria-label="Breadcrumb">
       <ol className="inline-flex items-center space-x-1 md:space-x-3  ">
         {pathnames.map((name, index) => {
           const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
