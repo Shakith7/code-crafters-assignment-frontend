@@ -15,22 +15,22 @@ const ProductList = () => {
   };
 
   return (
-    <div className="p-6 bg-white shadow-md rounded-md">
+    <div className="p-6 bg-white shadow-md rounded-md bg-[#F2EEFF]">
             <h2 className="text-lg font-medium mb-4">{products.length} Products in Total</h2>
 
       <table className="min-w-full bg-white">
         <thead>
           <tr className="border-b border-gray-200 ">
-            <th className="py-2 px-4 text-left text-xs text-[#AFB8CD] w-1/2 ">Product Image</th>
-            <th className="py-2 px-4 text-left text-xs text-[#AFB8CD] text-center">Category</th>
-            <th className="py-2 px-4 text-left text-xs text-[#AFB8CD] text-center">Quantity</th>
-            <th className="py-2 px-4 text-left text-xs text-[#AFB8CD] text-center">Unit Price</th>
-            <th className="py-2 px-4 text-left text-xs text-[#AFB8CD] text-center">Total Revenue</th>
+            <th className="py-2 px-4 text-left text-sm text-[#AFB8CD] w-1/2 ">Product Image</th>
+            <th className="py-2 px-4 text-left text-sm text-[#AFB8CD] text-center">Category</th>
+            <th className="py-2 px-4 text-left text-sm text-[#AFB8CD] text-center">Quantity</th>
+            <th className="py-2 px-4 text-left text-sm text-[#AFB8CD] text-center">Unit Price</th>
+            <th className="py-2 px-4 text-left text-sm text-[#AFB8CD] text-center">Total Revenue</th>
           </tr>
         </thead>
         <tbody>
           {products.map(product => (
-            <tr key={product._id} className="border-b border-gray-200">
+            <tr key={product._id} className="border-b border-gray-200 bg-[#F9F8FB]">
               <td className="py-2 px-4  ">
                 <div className="flex items-center">
                   <img src={product.image} alt={product.name} className="w-20 h-20 object-cover mr-2 rounded-lg" />
